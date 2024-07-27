@@ -20,6 +20,27 @@ This project aims to address the computational limitations associated with the t
 2. **Performance Evaluation**: Compare the performance of the machine learning model against conventional FFT methods in terms of speed and accuracy.
 3. **Integration**: Implement the trained model in an OFDM receiver to assess real-world applicability and benefits.
 
+## Data Generation
+
+To facilitate training and testing machine learning models for OFDM systems, we generate synthetic data that includes both time-domain and frequency-domain symbols. The dataset is created using the following approach:
+
+1. **Parameters**:
+   - **Number of Samples**: 100,000
+   - **Number of Subcarriers**: 1 (for simplicity)
+
+2. **Data Generation**:
+   - Random time-domain symbols are generated.
+   - The Fast Fourier Transform (FFT) is applied to these symbols to obtain the corresponding frequency-domain symbols.
+
+3. **Data Preparation**:
+   - The data is reshaped into a format suitable for modeling.
+   - Input data (`X`) consists of frequency-domain symbols.
+   - Output data (`y`) consists of time-domain symbols.
+
+4. **Saving the Data**:
+   - The generated dataset is saved as a CSV file (`ofdm_dataset.csv`), which includes columns for both time-domain and frequency-domain symbols.
+
+This dataset serves as a basis for exploring machine learning approaches to perform FFT operations in OFDM systems, aiming to enhance processing speed and accuracy.
 ## Getting Started
 
 To get started with the project, you will need to:

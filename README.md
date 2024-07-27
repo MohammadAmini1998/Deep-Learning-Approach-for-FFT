@@ -1,4 +1,4 @@
-# OFDM with Machine Learning
+# A Machine Learning Approach to FFT in OFDM Receiver
 
 ## Overview
 

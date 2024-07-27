@@ -41,7 +41,13 @@ To facilitate training and testing machine learning models for OFDM systems, we 
    - The generated dataset is saved as a CSV file (`ofdm_dataset.csv`), which includes columns for both time-domain and frequency-domain symbols.
 
 This dataset serves as a basis for exploring machine learning approaches to perform FFT operations in OFDM systems, aiming to enhance processing speed and accuracy.
-## Getting Started
+
+
+### Results
+![f19b904c-8e85-499c-87b9-d9b729cbbb0f](https://github.com/user-attachments/assets/9a6c0e96-2351-4503-a322-c35e1062af1b)
+![ef9ea483-23b5-4a4a-8f43-70e81448ebdb](https://github.com/user-attachments/assets/6f5efe02-2b5a-475a-94e7-2ac75f3706c5)
+
+
 
 To get started with the project, you will need to:
 

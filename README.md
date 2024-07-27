@@ -54,4 +54,6 @@ To get started with the project, you will need to:
 1. **Clone the Repository**:
    ```bash
    https://github.com/MohammadAmini1998/deep-learning-approach-for-FFT.git
-2. Run dataset_generator to generate the dataset. 
+2. Run dataset_generator to generate the dataset.
+
+3. Run project.ipynb to train the model and see the results.
